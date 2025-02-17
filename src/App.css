@@ -38,16 +38,25 @@ body {
   margin-bottom: 10px;
 }
 .input-box-todo{
-  margin-left: 10px;
-  width: 90%;
-  height: 40px;
-  border-radius: 14px;
-  border:1px solid black;
-  padding-left: 10px;  
-  box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
-  outline: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: large;
+  list-style-type: none;
+  /* background-color: #596e8b; */
+  border:2px solid rgb(161, 158, 158);
+  color:rgb(0, 0, 0);
+  padding:3px;
+  padding-left: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 1.5em;
+  background-color: rgb(173, 210, 246);
+  max-width: 90%;  /* Ensures it stays inside the parent */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal; /* Allows multi-line wrapping */
+  flex-wrap: wrap;
 }
 .add-btn{
   width: 45px;
